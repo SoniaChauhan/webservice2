@@ -1,0 +1,42 @@
+.main {
+    display: flex;
+}
+
+.maincomnt {
+    display: flex;
+    justify-content: space-between;
+}
+
+textarea {
+    resize: none;
+}
+
+.maincontent {
+    display: flex;
+}
+
+.cardPic {
+    display: flex;
+    justify-content: space-between;
+}
+
+.outerImg {
+    position: relative;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    width: 56%;
+    border: 1px solid #BBD6CF;
+}
+
+.innerImg {
+    position: absolute;
+    top: 17%;
+    left: 15%;
+    width: 25%;
+}
+
+.btn-group-sm>.btn,
+.btn-sm {
+    font-size: .6rem;
+}
